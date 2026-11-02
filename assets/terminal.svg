@@ -1,0 +1,25 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="820" height="300" viewBox="0 0 820 300" role="img" aria-label="Animated terminal showing a Claude Code /phases run">
+  <style>
+    .bg{fill:#0d1117}.bar{fill:#161b22}.b{fill:#ff5f56}.y{fill:#ffbd2e}.g{fill:#27c93f}
+    text{font-family:ui-monospace,SFMono-Regular,Menlo,Consolas,monospace;font-size:14px}
+    .p{fill:#7ee787}.c{fill:#e6edf3}.d{fill:#8b949e}.a{fill:#d2a8ff}.o{fill:#ffa657}.k{fill:#79c0ff}
+    .l{opacity:0;animation:show 12s infinite}
+    .l1{animation-delay:.3s}.l2{animation-delay:1.3s}.l3{animation-delay:2.3s}.l4{animation-delay:3.1s}
+    .l5{animation-delay:3.9s}.l6{animation-delay:4.9s}.l7{animation-delay:5.9s}.l8{animation-delay:6.9s}.l9{animation-delay:7.9s}
+    @keyframes show{0%{opacity:0;transform:translateY(4px)}4%{opacity:1;transform:none}88%{opacity:1}96%,100%{opacity:0}}
+    .cur{animation:blink 1s steps(1) infinite}@keyframes blink{50%{opacity:0}}
+  </style>
+  <rect class="bg" width="820" height="300" rx="12"/>
+  <rect class="bar" width="820" height="34" rx="12"/><rect class="bar" y="20" width="820" height="14"/>
+  <circle class="b" cx="22" cy="17" r="6"/><circle class="y" cx="42" cy="17" r="6"/><circle class="g" cx="62" cy="17" r="6"/>
+  <text x="410" y="22" text-anchor="middle" class="d">claude  ~/projects/future-office</text>
+  <text x="24" y="66" class="l l1"><tspan class="p">❯</tspan><tspan class="c"> /phases</tspan><tspan class="d">  plan.md (4 phases)</tspan></text>
+  <text x="24" y="94" class="l l2"><tspan class="a">● scout</tspan><tspan class="d">   files per phase, dependencies, disjoint sets</tspan></text>
+  <text x="24" y="122" class="l l3"><tspan class="k">⎇ worktree</tspan><tspan class="c">  phase-1-auth</tspan><tspan class="d">        ┐</tspan></text>
+  <text x="24" y="146" class="l l4"><tspan class="k">⎇ worktree</tspan><tspan class="c">  phase-2-voice-agent</tspan><tspan class="d"> ├ parallel, no shared files</tspan></text>
+  <text x="24" y="170" class="l l5"><tspan class="k">⎇ worktree</tspan><tspan class="c">  phase-3-billing</tspan><tspan class="d">     ┘</tspan></text>
+  <text x="24" y="198" class="l l6"><tspan class="o">▣ gate</tspan><tspan class="c">  typecheck · lint · tests · build</tspan><tspan class="d">  one at a time</tspan></text>
+  <text x="24" y="226" class="l l7"><tspan class="p">✓ merge</tspan><tspan class="c"> phase-1 → phase-2 → phase-3</tspan><tspan class="d">  dependency order</tspan></text>
+  <text x="24" y="254" class="l l8"><tspan class="o">▣ gate</tspan><tspan class="c">  phase-4-integration</tspan><tspan class="d">  after merge</tspan></text>
+  <text x="24" y="282" class="l l9"><tspan class="p">❯</tspan><tspan class="c"> </tspan><tspan class="c cur">▍</tspan></text>
+</svg>
